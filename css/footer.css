@@ -1,0 +1,12 @@
+footer
+{
+    background-color: rgb(232, 234, 246);
+    color: palevioletred;
+    text-align: center;
+    font: 100% sans-serif;
+}
+
+footer a 
+{
+    color: palevioletred;
+}

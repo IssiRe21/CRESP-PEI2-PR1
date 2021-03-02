@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+</head>
+<body>
+    <div>
+        <nav class="navbar-l" id="nav_l">
+            <ul class="options-container">
+                <li class="logo-l"></li>
+                <li id="button"></li>
+            </ul>
+        </nav>
+
+
+        <nav class="navbar-2 hide" id="hide">
+            <ul class="options-container">
+                <li class="option"><a href="./index.html">INICIO</a></li>
+                <li class="option"><a href="./info.html">SOBRE NOSOTROS</a></li>
+                <li class="option"><a href="./contacto.html">CONTACTO</a></li>
+                <li class="option">PRODUCTOS</li>
+             </ul>
+       </nav>  
+
+    
+
+        <nav class="navbar">
+            <ul class="options-container">
+                <li class="logo"></li>
+                <li class="option"><a href="./index.html">INICIO</a></li>
+                <li class="option"><a href="./info.html">SOBRE NOSOTROS</a></li>
+                <li class="option"><a href="./contacto.html">CONTACTO</a></li>
+                <li class="option">PRODUCTOS</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="center">
+        <div class="form-container">
+            <h1 class="title">Contáctanos </h1>
+            <form action="#" class="contact-form" id="contact-form">
+                <div class="data">
+                    <label for="name" id="label_Name" class="form-label ">Nombre<span class="required-indicator">*</span>:</label>
+                    <input type="text" id="name" class="form-input ">
+                </div>
+                <div class="data">
+                    <label for="email" id="label_Email" class="form-label ">Correo electrónico<span class="required-indicator">*</span>:</label>
+                    <input type="email" id="email" class="form-input ">
+                </div>
+                <div class="data">
+                    <label for="message" id="label_Message" class="form-label ">Mensaje<span class="required-indicator">*</span>:</label>
+                    <textarea name="message" id="message" class="form-input " rows="4"  maxlength="200"></textarea>
+                </div>
+                <div>
+                    <p><span class="required-indicator">*</span> Campos requeridos</p>
+                </div>
+                <div class="message" id="message_danger">
+                    <p id="message_danger_text">Lorem Ipsum Dolor Sit Amet.</p>
+                </div>
+                <button type="submit" class="button-form" id="button-form">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <footer>
+        <span>Imagen del pastel por: <a href="https://unsplash.com/@biglaughkitchen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Deva Williamson</a> en <a href="https://unsplash.com/s/photos/cake?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash.</a></span>
+        <p>Pagina creada por Isis Regina Arrieta con fines educativos.</p>
+        <p>Alien Cat es una empresa ficticia.</p>
+    </footer>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/contacto.js"></script>
+</body>
+</html>
